@@ -1,8 +1,15 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Base.Theme.DesignDemo">
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Base.Theme.DesignDemo" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/abc_input_method_navigation_guard</item>
+        <item name="colorPrimaryDark">@color/common_action_bar_splitter</item>
+        <item name="colorAccent">@color/abc_input_method_navigation_guard</item>
+    </style>
+
 
 </resources>

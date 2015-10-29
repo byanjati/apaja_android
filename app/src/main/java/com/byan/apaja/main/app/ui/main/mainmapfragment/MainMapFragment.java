@@ -1,4 +1,4 @@
-package com.byan.apaja.main.main.mainmapfragment;
+package com.byan.apaja.main.app.ui.main.mainmapfragment;
 
 import android.app.Activity;
 import android.location.Location;

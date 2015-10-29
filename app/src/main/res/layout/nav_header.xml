@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="172dp"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+  <!--  <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/common_signin_btn_text_dark"
+        android:id="@+id/cover_navheader"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingTop="25dp"
+        android:layout_height="172dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/avatar_navheader"
+            android:layout_width="64dp"
+            android:layout_marginTop="@dimen/design_snackbar_extra_spacing_horizontal"
+            android:layout_marginLeft="@dimen/design_snackbar_extra_spacing_horizontal"
+            android:layout_marginStart="@dimen/design_snackbar_extra_spacing_horizontal"
+            android:elevation="4dp"
+            android:layout_height="64dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nav_username"
+            android:layout_above="@+id/nav_email"
+            android:layout_marginLeft="@dimen/design_snackbar_extra_spacing_horizontal"
+            android:layout_marginStart="@dimen/design_snackbar_extra_spacing_horizontal"
+            android:text="Username" />
+        <TextView
+            android:id="@+id/nav_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/design_snackbar_extra_spacing_horizontal"
+            android:layout_marginStart="@dimen/design_snackbar_extra_spacing_horizontal"
+            android:layout_marginBottom="@dimen/design_snackbar_extra_spacing_horizontal"
+            android:text="username@mymail.com" />
+
+    </RelativeLayout>-->
+</RelativeLayout>

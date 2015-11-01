@@ -1,12 +1,43 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.byan.apaja.main.app.ui.main.mainmapfragment.MainMapFragment">
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
 
-    <com.google.android.gms.maps.MapView
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/mapView"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
+    <FrameLayout
+        android:id="@+id/init_state"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            tools:layout="@layout/fragment_single_map"
+            class="com.byan.apaja.main.app.ui.main.mainscreenfragment.SingleMapFragment"
+            android:layout_gravity="start"/>
+
+        <include
+            android:id="@+id/toolbar_init"
+            android:visibility="gone"
+            layout="@layout/include_toolbar_init_state"/>
+
+        <include
+            android:id="@+id/toolbar_search_state"
+            android:visibility="gone"
+            layout="@layout/include_toolbar_search_state"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/input_location_state"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/toolbar_input_search"
+            layout="@layout/include_toolbar_input_search"/>
+    </FrameLayout>
+
 </FrameLayout>

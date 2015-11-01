@@ -23,5 +23,11 @@
         <item >Settings</item>
         <item >About Apaja</item>
     </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_train_schedule">TrainScheduleActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_all_route">AllRouteActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
 
 </resources>
